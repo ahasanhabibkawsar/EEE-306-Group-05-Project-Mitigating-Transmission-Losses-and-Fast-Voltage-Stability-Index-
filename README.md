@@ -27,7 +27,7 @@ GA and PSO were each run separately, starting from the same stressed base case.
 | IEEE 39 – PSO, K = 12, 100 MVAr (1110 MVAr at 12 buses) | **85.02 (−31.9 %)** | 0.9820 | 0.0135 | 0.1005 (1→39) | 206 MVAr |
 
 - After PSO, every IEEE 39 load bus lies inside 0.95–1.05 pu. The small violation that remains is generator bus 36, whose set-point is 1.0635 pu. In IEEE 14, slack bus 1 is fixed at 1.06 pu. Neither taps nor capacitors can move a generator set-point, so strict feasibility is physically impossible in these cases.
-- Allowing the PSO to use every PQ bus (K = 9 for IEEE 14, K = 29 for IEEE 39) gave the same result on IEEE 14. On IEEE 39 it gave a slightly worse result: 86.28 MW. With K = 29 the search space is about 10³⁸ configurations, which is far too large for the budget of 14,400 load-flow evaluations.
+- Allowing the PSO to use every PQ bus (K = 9 for IEEE 14, K = 29 for IEEE 39) gave the same result on IEEE 14. On IEEE 39 it gave a slightly worse result: 86.28 MW. With K = 29 the search space is about 10³⁸ configurations, which is far too large for the budget of 14,400 load-flow evaluations (120 × 120) used in that run.
 
 ---
 
@@ -88,12 +88,12 @@ pip install -r requirements.txt
    ```bash
    python code/IEEEtxfTapGE.py
    ```
-   Choose the `.sav` file. It runs 120 individuals for 120 generations, i.e. 14,400 load flows. At the end it prints a summary, the tap changes and the bus voltages, and saves `<case>_TAP_OPTIMIZED.sav`. The six figures open in windows; save them from there.
+   Choose the `.sav` file. By default it runs a population of 50 for 50 generations (`POP_SIZE`, `MAX_GEN` at the top of the script; the results in `results/` and the report were obtained with 120 × 120). At the end it prints a summary, the tap changes and the bus voltages, and saves `<case>_TAP_OPTIMIZED.sav`. The six figures open in windows; save them from there.
 4. **Optimise shunt capacitors (PSO).**
    ```bash
    python code/PSOcapacitor.py
    ```
-   Choose the `.sav` file, then enter the maximum number of capacitor sites **K** and the maximum MVAr per site. The program creates `<case>_PSO_Results/`, which contains `Optimization_Report.txt`, `<case>_CAPACITOR_OPTIMIZED.sav` and five PNG figures.
+   Choose the `.sav` file, then enter the maximum number of capacitor sites **K** and the maximum MVAr per site. The program creates `<case>_PSO_Results/`, which contains `Optimization_Report.txt`, `<case>_CAPACITOR_OPTIMIZED.sav` and five PNG figures. By default the swarm has 60 particles and runs 60 iterations (`SWARM_SIZE`, `MAX_ITER`; the reported results used 120 × 120).
 5. **Verify.** Run the FVSI script again on the optimised `.sav` file and compare the new FVSI values and reactive margins with the base case.
 The tuning constants (population/swarm size, iterations, P<sub>c</sub>, P<sub>m</sub>, elitism, tournament size, c<sub>1</sub>, c<sub>2</sub>, velocity limit, capacitor step, voltage limits) are at the top of each script. The random seed is fixed at 42 so runs can be reproduced.
 
