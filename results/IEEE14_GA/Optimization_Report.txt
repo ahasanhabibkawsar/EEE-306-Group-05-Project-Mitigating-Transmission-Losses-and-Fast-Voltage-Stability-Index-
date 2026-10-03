@@ -1,0 +1,46 @@
+
+=================================================================
+                   SYSTEM OPTIMIZATION SUMMARY                   
+=================================================================
+Total Generation P (MW)      : Base =   507.0703, Opt =   498.5502 (Decreased by 1.68%)
+Total Generation Q (MVAR)    : Base =   413.3333, Opt =   362.4713 (Decreased by 12.31%)
+Total Load P (MW)            : Base =   436.0036, Opt =   436.4097 (Increased by 0.09%)
+Total Load Q (MVAR)          : Base =   144.5947, Opt =   144.7571 (Increased by 0.11%)
+Active Power Loss (MW)       : Base =    71.0311, Opt =    62.1421 (Decreased by 12.51%)
+Reactive Power Loss (MVAR)   : Base =   296.6196, Opt =   250.7184 (Decreased by 15.47%)
+Power Balance Residual (MW)  : Base =     0.0356, Opt =    -0.0016 (Decreased by 104.58%)
+Minimum Voltage (pu)         : Base =     0.6474, Opt =     0.8008 (Increased by 23.70%)
+Maximum Voltage (pu)         : Base =     1.0600, Opt =     1.0600 (Remained unchanged)
+Total Voltage Violation (pu) : Base =     2.6229, Opt =     1.2121 (Decreased by 53.79%)
+
+TRANSFORMER TAP ADJUSTMENTS
+
+ -> Transformer  4-7  : Base = 0.9780, Opt = 0.8797
+ -> Transformer  4-9  : Base = 0.9690, Opt = 0.9486
+ -> Transformer  5-6  : Base = 0.9320, Opt = 0.8734
+
+=================================================================
+            INDIVIDUAL BUS VOLTAGES (BEFORE vs AFTER)            
+=================================================================
+ -> Bus   1 : BEFORE = 1.0600 pu  |  AFTER = 1.0600 pu
+ -> Bus   2 : BEFORE = 0.9141 pu  |  AFTER = 0.9341 pu
+ -> Bus   3 : BEFORE = 0.7697 pu  |  AFTER = 0.8064 pu
+ -> Bus   4 : BEFORE = 0.7833 pu  |  AFTER = 0.8245 pu
+ -> Bus   5 : BEFORE = 0.8065 pu  |  AFTER = 0.8442 pu
+ -> Bus   6 : BEFORE = 0.7498 pu  |  AFTER = 0.8837 pu
+ -> Bus   7 : BEFORE = 0.7529 pu  |  AFTER = 0.8930 pu
+ -> Bus   8 : BEFORE = 0.8054 pu  |  AFTER = 0.9381 pu
+ -> Bus   9 : BEFORE = 0.7043 pu  |  AFTER = 0.8475 pu
+ -> Bus  10 : BEFORE = 0.6914 pu  |  AFTER = 0.8365 pu
+ -> Bus  11 : BEFORE = 0.7107 pu  |  AFTER = 0.8519 pu
+ -> Bus  12 : BEFORE = 0.7079 pu  |  AFTER = 0.8494 pu
+ -> Bus  13 : BEFORE = 0.6936 pu  |  AFTER = 0.8378 pu
+ -> Bus  14 : BEFORE = 0.6474 pu  |  AFTER = 0.8008 pu
+
+FINAL STATUS
+
+Feasibility : INFEASIBLE (Grid voltage constraints remain violated)
+Best effort : Active power loss reduced by 12.51%
+Voltage     : Remaining constraint violation = 1.2121 pu
+
+Export SAV  : D:/EEE 305 PSSE Project/Python Codes\IEEE14Data - Copy_GA_Results\IEEE14Data - Copy_TAP_OPTIMIZED.sav

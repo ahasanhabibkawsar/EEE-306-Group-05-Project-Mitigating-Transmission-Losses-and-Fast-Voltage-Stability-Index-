@@ -1,0 +1,1227 @@
+# FVSI-Collapse Analysis.py console output (PSS(R)E Xplore 36.6)
+# Cases: stressed base, after GA taps, after PSO capacitors (IEEE 14-bus and IEEE 39-bus).
+# Fields: Base FVSI, sending/receiving voltage, P flow, Q received, Q_max (last converged), Q_margin, line losses.
+
+IEEE39Data.sav FVSI:
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:32
+From bus 2 to 3
+  Base FVSI       = 0.2479
+  V_send (pu)     = 1.0170
+  V_recv (pu)     = 0.9493
+  P_flow (MW)     = 169.6959
+  Q_recv (MVAR)   = 421.3066
+  Q_max (MVAR)    = 421.3066 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 2.8232
+  Q_loss (MVAR)   = 7.9026
+From bus 19 to 16
+  Base FVSI       = 0.2015
+  V_send (pu)     = 1.0239
+  V_recv (pu)     = 0.9684
+  P_flow (MW)     = 212.4595
+  Q_recv (MVAR)   = 268.9943
+  Q_max (MVAR)    = 270.0533 (Actual network limit)
+  Q_margin (MVAR) = 1.0590 (Actual margin)
+  P_loss (MW)     = 1.8773
+  Q_loss (MVAR)   = -7.3113
+From bus 29 to 26
+  Base FVSI       = 0.1841
+  V_send (pu)     = 1.0320
+  V_recv (pu)     = 1.0074
+  P_flow (MW)     = 113.7215
+  Q_recv (MVAR)   = 77.8020
+  Q_max (MVAR)    = 78.7447 (Actual network limit)
+  Q_margin (MVAR) = 0.9427 (Actual margin)
+  P_loss (MW)     = 0.7631
+  Q_loss (MVAR)   = -98.6480
+From bus 22 to 21
+  Base FVSI       = 0.1297
+  V_send (pu)     = 1.0236
+  V_recv (pu)     = 0.9832
+  P_flow (MW)     = 566.5053
+  Q_recv (MVAR)   = 241.9220
+  Q_max (MVAR)    = 243.4961 (Actual network limit)
+  Q_margin (MVAR) = 1.5741 (Actual margin)
+  P_loss (MW)     = 3.0917
+  Q_loss (MVAR)   = 28.2674
+From bus 28 to 26
+  Base FVSI       = 0.1283
+  V_send (pu)     = 1.0242
+  V_recv (pu)     = 1.0074
+  P_flow (MW)     = 47.7058
+  Q_recv (MVAR)   = 70.4187
+  Q_max (MVAR)    = 71.3710 (Actual network limit)
+  Q_margin (MVAR) = 0.9522 (Actual margin)
+  P_loss (MW)     = 0.1367
+  Q_loss (MVAR)   = -79.0027
+From bus 23 to 24
+  Base FVSI       = 0.1147
+  V_send (pu)     = 1.0171
+  V_recv (pu)     = 0.9808
+  P_flow (MW)     = 304.6090
+  Q_recv (MVAR)   = 84.4072
+  Q_max (MVAR)    = 85.1640 (Actual network limit)
+  Q_margin (MVAR) = 0.7568 (Actual margin)
+  P_loss (MW)     = 2.1945
+  Q_loss (MVAR)   = -1.1226
+From bus 26 to 27
+  Base FVSI       = 0.1023
+  V_send (pu)     = 1.0074
+  V_recv (pu)     = 0.9796
+  P_flow (MW)     = 200.6377
+  Q_recv (MVAR)   = 175.0261
+  Q_max (MVAR)    = 176.3854 (Actual network limit)
+  Q_margin (MVAR) = 1.3593 (Actual margin)
+  P_loss (MW)     = 0.9717
+  Q_loss (MVAR)   = -13.4530
+From bus 14 to 4
+  Base FVSI       = 0.0731
+  V_send (pu)     = 0.8726
+  V_recv (pu)     = 0.8547
+  P_flow (MW)     = 206.3226
+  Q_recv (MVAR)   = 107.4686
+  Q_max (MVAR)    = 107.4686 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.5811
+  Q_loss (MVAR)   = -0.9390
+From bus 21 to 16
+  Base FVSI       = 0.0584
+  V_send (pu)     = 0.9832
+  V_recv (pu)     = 0.9684
+  P_flow (MW)     = 196.1754
+  Q_recv (MVAR)   = 104.2502
+  Q_max (MVAR)    = 104.9863 (Actual network limit)
+  Q_margin (MVAR) = 0.7362 (Actual margin)
+  P_loss (MW)     = 0.4010
+  Q_loss (MVAR)   = -17.4976
+From bus 1 to 39
+  Base FVSI       = 0.0553
+  V_send (pu)     = 1.0358
+  V_recv (pu)     = 1.0300
+  P_flow (MW)     = 87.1347
+  Q_recv (MVAR)   = 59.2110
+  Q_max (MVAR)    = 59.2106 (Actual network limit)
+  Q_margin (MVAR) = -0.0003 (Actual margin)
+  P_loss (MW)     = 0.0750
+  Q_loss (MVAR)   = -78.1396
+From bus 25 to 26
+  Base FVSI       = 0.0455
+  V_send (pu)     = 1.0205
+  V_recv (pu)     = 1.0074
+  P_flow (MW)     = 228.5014
+  Q_recv (MVAR)   = 36.2905
+  Q_max (MVAR)    = 38.4292 (Actual network limit)
+  Q_margin (MVAR) = 2.1387 (Actual margin)
+  P_loss (MW)     = 1.6263
+  Q_loss (MVAR)   = -36.3282
+From bus 5 to 8
+  Base FVSI       = 0.0290
+  V_send (pu)     = 0.8352
+  V_recv (pu)     = 0.8207
+  P_flow (MW)     = 570.8273
+  Q_recv (MVAR)   = 44.8542
+  Q_max (MVAR)    = 44.8542 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 3.8373
+  Q_loss (MVAR)   = 43.6034
+From bus 22 to 23
+  Base FVSI       = 0.0269
+  V_send (pu)     = 1.0236
+  V_recv (pu)     = 1.0171
+  P_flow (MW)     = 80.4030
+  Q_recv (MVAR)   = 73.1640
+  Q_max (MVAR)    = 77.3342 (Actual network limit)
+  Q_margin (MVAR) = 4.1702 (Actual margin)
+  P_loss (MW)     = 0.0609
+  Q_loss (MVAR)   = -18.2435
+From bus 6 to 7
+  Base FVSI       = 0.0258
+  V_send (pu)     = 0.8364
+  V_recv (pu)     = 0.8193
+  P_flow (MW)     = 876.6985
+  Q_recv (MVAR)   = 48.7962
+  Q_max (MVAR)    = 48.7962 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 6.7822
+  Q_loss (MVAR)   = 96.2464
+From bus 25 to 2
+  Base FVSI       = 0.0236
+  V_send (pu)     = 1.0205
+  V_recv (pu)     = 1.0170
+  P_flow (MW)     = 7.1822
+  Q_recv (MVAR)   = 43.0161
+  Q_max (MVAR)    = 44.8189 (Actual network limit)
+  Q_margin (MVAR) = 1.8028 (Actual margin)
+  P_loss (MW)     = 0.0886
+  Q_loss (MVAR)   = -15.0434
+From bus 10 to 13
+  Base FVSI       = 0.0226
+  V_send (pu)     = 0.8894
+  V_recv (pu)     = 0.8794
+  P_flow (MW)     = 898.9009
+  Q_recv (MVAR)   = 102.8855
+  Q_max (MVAR)    = 102.8855 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 4.1921
+  Q_loss (MVAR)   = 39.3627
+From bus 29 to 28
+  Base FVSI       = 0.0164
+  V_send (pu)     = 1.0320
+  V_recv (pu)     = 1.0242
+  P_flow (MW)     = 325.9643
+  Q_recv (MVAR)   = 28.6567
+  Q_max (MVAR)    = 35.1525 (Actual network limit)
+  Q_margin (MVAR) = 6.4958 (Actual margin)
+  P_loss (MW)     = 1.4214
+  Q_loss (MVAR)   = -10.9891
+From bus 16 to 17
+  Base FVSI       = 0.0043
+  V_send (pu)     = 0.9684
+  V_recv (pu)     = 0.9669
+  P_flow (MW)     = 127.3318
+  Q_recv (MVAR)   = 11.2810
+  Q_max (MVAR)    = 12.9747 (Actual network limit)
+  Q_margin (MVAR) = 1.6937 (Actual margin)
+  P_loss (MW)     = 0.1213
+  Q_loss (MVAR)   = -11.0236
+RESULT ANALYSIS
+Most critical corridor: Bus 2 to 3 (FVSI = 0.2479)
+This line can absorb only 0.00 MVAR more before experiencing collapse.
+Corridor is stressed.
+IEEE14Data.sav FVSI:
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:33
+From bus 1 to 5
+  Base FVSI       = 0.3727
+  V_send (pu)     = 1.0600
+  V_recv (pu)     = 0.8065
+  P_flow (MW)     = 141.8640
+  Q_recv (MVAR)   = 44.3343
+  Q_max (MVAR)    = 44.3343 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 14.9050
+  Q_loss (MVAR)   = 57.1646
+From bus 1 to 2
+  Base FVSI       = 0.2492
+  V_send (pu)     = 1.0600
+  V_recv (pu)     = 0.9141
+  P_flow (MW)     = 325.2063
+  Q_recv (MVAR)   = 106.8517
+  Q_max (MVAR)    = 110.5819 (Actual network limit)
+  Q_margin (MVAR) = 3.7302 (Actual margin)
+  P_loss (MW)     = 23.6330
+  Q_loss (MVAR)   = 66.9827
+From bus 7 to 9
+  Base FVSI       = 0.2229
+  V_send (pu)     = 0.7529
+  V_recv (pu)     = 0.7043
+  P_flow (MW)     = 48.1404
+  Q_recv (MVAR)   = 28.7108
+  Q_max (MVAR)    = 28.7108 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.0000
+  Q_loss (MVAR)   = 6.9674
+From bus 2 to 5
+  Base FVSI       = 0.2214
+  V_send (pu)     = 0.9141
+  V_recv (pu)     = 0.8065
+  P_flow (MW)     = 73.4357
+  Q_recv (MVAR)   = 24.0232
+  Q_max (MVAR)    = 24.0232 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 4.6066
+  Q_loss (MVAR)   = 11.4940
+From bus 2 to 4
+  Base FVSI       = 0.1829
+  V_send (pu)     = 0.9141
+  V_recv (pu)     = 0.7833
+  P_flow (MW)     = 100.5268
+  Q_recv (MVAR)   = 19.5490
+  Q_max (MVAR)    = 19.5490 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 8.3677
+  Q_loss (MVAR)   = 22.9261
+From bus 6 to 13
+  Base FVSI       = 0.1671
+  V_send (pu)     = 0.7498
+  V_recv (pu)     = 0.6936
+  P_flow (MW)     = 30.9712
+  Q_recv (MVAR)   = 14.3285
+  Q_max (MVAR)    = 14.3285 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 1.4784
+  Q_loss (MVAR)   = 2.9114
+From bus 9 to 14
+  Base FVSI       = 0.1555
+  V_send (pu)     = 0.7043
+  V_recv (pu)     = 0.6474
+  P_flow (MW)     = 16.3738
+  Q_recv (MVAR)   = 5.8398
+  Q_max (MVAR)    = 5.8398 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.8356
+  Q_loss (MVAR)   = 1.7775
+From bus 6 to 11
+  Base FVSI       = 0.1402
+  V_send (pu)     = 0.7498
+  V_recv (pu)     = 0.7107
+  P_flow (MW)     = 12.4951
+  Q_recv (MVAR)   = 8.0669
+  Q_max (MVAR)    = 8.0669 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.3976
+  Q_loss (MVAR)   = 0.8326
+From bus 13 to 14
+  Base FVSI       = 0.1388
+  V_send (pu)     = 0.6936
+  V_recv (pu)     = 0.6474
+  P_flow (MW)     = 9.6106
+  Q_recv (MVAR)   = 3.8652
+  Q_max (MVAR)    = 3.8652 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.4064
+  Q_loss (MVAR)   = 0.8275
+From bus 6 to 12
+  Base FVSI       = 0.1117
+  V_send (pu)     = 0.7498
+  V_recv (pu)     = 0.7079
+  P_flow (MW)     = 13.6802
+  Q_recv (MVAR)   = 4.9843
+  Q_max (MVAR)    = 4.9843 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.4879
+  Q_loss (MVAR)   = 1.0154
+From bus 2 to 3
+  Base FVSI       = 0.0895
+  V_send (pu)     = 0.9141
+  V_recv (pu)     = 0.7697
+  P_flow (MW)     = 131.0461
+  Q_recv (MVAR)   = 8.9436
+  Q_max (MVAR)    = 8.9436 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 11.4006
+  Q_loss (MVAR)   = 44.9034
+From bus 11 to 10
+  Base FVSI       = 0.0773
+  V_send (pu)     = 0.7107
+  V_recv (pu)     = 0.6914
+  P_flow (MW)     = 6.1045
+  Q_recv (MVAR)   = 4.2979
+  Q_max (MVAR)    = 4.2979 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.0957
+  Q_loss (MVAR)   = 0.2239
+From bus 12 to 13
+  Base FVSI       = 0.0633
+  V_send (pu)     = 0.7079
+  V_recv (pu)     = 0.6936
+  P_flow (MW)     = 2.9142
+  Q_recv (MVAR)   = 1.7858
+  Q_max (MVAR)    = 1.7858 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.0523
+  Q_loss (MVAR)   = 0.0473
+From bus 9 to 10
+  Base FVSI       = 0.0554
+  V_send (pu)     = 0.7043
+  V_recv (pu)     = 0.6914
+  P_flow (MW)     = 9.1442
+  Q_recv (MVAR)   = 7.1219
+  Q_max (MVAR)    = 7.1219 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 0.0883
+  Q_loss (MVAR)   = 0.2346
+From bus 5 to 4
+  Base FVSI       = 0.0185
+  V_send (pu)     = 0.8065
+  V_recv (pu)     = 0.7833
+  P_flow (MW)     = 104.5745
+  Q_recv (MVAR)   = 6.5041
+  Q_max (MVAR)    = 6.5041 (Actual network limit)
+  Q_margin (MVAR) = 0.0000 (Actual margin)
+  P_loss (MW)     = 2.3885
+  Q_loss (MVAR)   = 7.5340
+RESULT ANALYSIS
+Most critical corridor: Bus 1 to 5 (FVSI = 0.3727)
+This line can absorb only 0.00 MVAR more before experiencing collapse.
+Corridor is stressed.
+IEEE39Data_Tap Change FVSI:
+          SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:34
+From bus 19 to 16
+  Base FVSI       = 0.2104
+  V_send (pu)     = 1.0807
+  V_recv (pu)     = 1.0200
+  P_flow (MW)     = 212.1752
+  Q_recv (MVAR)   = 313.0138
+  Q_max (MVAR)    = 731.4576 (Actual network limit)
+  Q_margin (MVAR) = 418.4439 (Actual margin)
+  P_loss (MW)     = 2.0507
+  Q_loss (MVAR)   = -8.5753
+From bus 2 to 3
+  Base FVSI       = 0.1819
+  V_send (pu)     = 1.0602
+  V_recv (pu)     = 1.0096
+  P_flow (MW)     = 163.0945
+  Q_recv (MVAR)   = 336.0421
+  Q_max (MVAR)    = 848.6501 (Actual network limit)
+  Q_margin (MVAR) = 512.6080 (Actual margin)
+  P_loss (MW)     = 1.6624
+  Q_loss (MVAR)   = -8.2519
+From bus 29 to 26
+  Base FVSI       = 0.1154
+  V_send (pu)     = 1.0466
+  V_recv (pu)     = 1.0414
+  P_flow (MW)     = 114.3367
+  Q_recv (MVAR)   = 50.1287
+  Q_max (MVAR)    = 251.1486 (Actual network limit)
+  Q_margin (MVAR) = 201.0199 (Actual margin)
+  P_loss (MW)     = 0.6887
+  Q_loss (MVAR)   = -104.6038
+From bus 1 to 39
+  Base FVSI       = 0.1151
+  V_send (pu)     = 1.0523
+  V_recv (pu)     = 1.0300
+  P_flow (MW)     = 90.4181
+  Q_recv (MVAR)   = 127.2105
+  Q_max (MVAR)    = 318.3216 (Actual network limit)
+  Q_margin (MVAR) = 191.1111 (Actual margin)
+  P_loss (MW)     = 0.1488
+  Q_loss (MVAR)   = -77.5880
+From bus 22 to 21
+  Base FVSI       = 0.0789
+  V_send (pu)     = 1.0495
+  V_recv (pu)     = 1.0229
+  P_flow (MW)     = 566.6010
+  Q_recv (MVAR)   = 154.6799
+  Q_max (MVAR)    = 753.0618 (Actual network limit)
+  Q_margin (MVAR) = 598.3818 (Actual margin)
+  P_loss (MW)     = 2.6071
+  Q_loss (MVAR)   = 18.0802
+From bus 28 to 26
+  Base FVSI       = 0.0745
+  V_send (pu)     = 1.0437
+  V_recv (pu)     = 1.0414
+  P_flow (MW)     = 47.3770
+  Q_recv (MVAR)   = 42.4560
+  Q_max (MVAR)    = 246.0643 (Actual network limit)
+  Q_margin (MVAR) = 203.6083 (Actual margin)
+  P_loss (MW)     = 0.0890
+  Q_loss (MVAR)   = -83.8220
+From bus 2 to 1
+  Base FVSI       = 0.0731
+  V_send (pu)     = 1.0602
+  V_recv (pu)     = 1.0523
+  P_flow (MW)     = 90.4181
+  Q_recv (MVAR)   = 49.6224
+  Q_max (MVAR)    = 492.1628 (Actual network limit)
+  Q_margin (MVAR) = 442.5403 (Actual margin)
+  P_loss (MW)     = 0.2622
+  Q_loss (MVAR)   = -74.8715
+From bus 26 to 27
+  Base FVSI       = 0.0680
+  V_send (pu)     = 1.0414
+  V_recv (pu)     = 1.0222
+  P_flow (MW)     = 204.1894
+  Q_recv (MVAR)   = 124.2738
+  Q_max (MVAR)    = 648.1569 (Actual network limit)
+  Q_margin (MVAR) = 523.8831 (Actual margin)
+  P_loss (MW)     = 0.7220
+  Q_loss (MVAR)   = -17.9306
+From bus 23 to 24
+  Base FVSI       = 0.0501
+  V_send (pu)     = 1.0476
+  V_recv (pu)     = 1.0292
+  P_flow (MW)     = 305.0320
+  Q_recv (MVAR)   = 39.1488
+  Q_max (MVAR)    = 374.8246 (Actual network limit)
+  Q_margin (MVAR) = 335.6758 (Actual margin)
+  P_loss (MW)     = 1.9165
+  Q_loss (MVAR)   = -8.4388
+From bus 5 to 8
+  Base FVSI       = 0.0456
+  V_send (pu)     = 0.9415
+  V_recv (pu)     = 0.9242
+  P_flow (MW)     = 563.6408
+  Q_recv (MVAR)   = 89.8111
+  Q_max (MVAR)    = 239.1734 (Actual network limit)
+  Q_margin (MVAR) = 149.3623 (Actual margin)
+  P_loss (MW)     = 3.0093
+  Q_loss (MVAR)   = 29.2858
+From bus 25 to 26
+  Base FVSI       = 0.0431
+  V_send (pu)     = 1.0537
+  V_recv (pu)     = 1.0414
+  P_flow (MW)     = 231.7054
+  Q_recv (MVAR)   = 36.6966
+  Q_max (MVAR)    = 512.4259 (Actual network limit)
+  Q_margin (MVAR) = 475.7293 (Actual margin)
+  P_loss (MW)     = 1.5650
+  Q_loss (MVAR)   = -40.5002
+From bus 6 to 7
+  Base FVSI       = 0.0411
+  V_send (pu)     = 0.9445
+  V_recv (pu)     = 0.9256
+  P_flow (MW)     = 873.8274
+  Q_recv (MVAR)   = 99.1720
+  Q_max (MVAR)    = 306.1391 (Actual network limit)
+  Q_margin (MVAR) = 206.9671 (Actual margin)
+  P_loss (MW)     = 5.3447
+  Q_loss (MVAR)   = 72.0696
+From bus 14 to 4
+  Base FVSI       = 0.0206
+  V_send (pu)     = 0.9499
+  V_recv (pu)     = 0.9439
+  P_flow (MW)     = 193.6684
+  Q_recv (MVAR)   = 35.9080
+  Q_max (MVAR)    = 251.9924 (Actual network limit)
+  Q_margin (MVAR) = 216.0844 (Actual margin)
+  P_loss (MW)     = 0.3448
+  Q_loss (MVAR)   = -6.8323
+From bus 21 to 16
+  Base FVSI       = 0.0109
+  V_send (pu)     = 1.0229
+  V_recv (pu)     = 1.0200
+  P_flow (MW)     = 196.3750
+  Q_recv (MVAR)   = 21.0838
+  Q_max (MVAR)    = 353.2446 (Actual network limit)
+  Q_margin (MVAR) = 332.1608 (Actual margin)
+  P_loss (MW)     = 0.2970
+  Q_loss (MVAR)   = -21.5733
+From bus 22 to 23
+  Base FVSI       = 0.0089
+  V_send (pu)     = 1.0495
+  V_recv (pu)     = 1.0476
+  P_flow (MW)     = 80.7919
+  Q_recv (MVAR)   = 25.5279
+  Q_max (MVAR)    = 654.6799 (Actual network limit)
+  Q_margin (MVAR) = 629.1520 (Actual margin)
+  P_loss (MW)     = 0.0370
+  Q_loss (MVAR)   = -19.7032
+From bus 16 to 17
+  Base FVSI       = 0.0057
+  V_send (pu)     = 1.0200
+  V_recv (pu)     = 1.0183
+  P_flow (MW)     = 122.7154
+  Q_recv (MVAR)   = 16.5536
+  Q_max (MVAR)    = 747.5315 (Actual network limit)
+  Q_margin (MVAR) = 730.9779 (Actual margin)
+  P_loss (MW)     = 0.1021
+  Q_loss (MVAR)   = -12.6401
+From bus 10 to 13
+  Base FVSI       = 0.0052
+  V_send (pu)     = 0.9560
+  V_recv (pu)     = 0.9504
+  P_flow (MW)     = 875.8555
+  Q_recv (MVAR)   = 27.1902
+  Q_max (MVAR)    = 395.1335 (Actual network limit)
+  Q_margin (MVAR) = 367.9433 (Actual margin)
+  P_loss (MW)     = 3.3734
+  Q_loss (MVAR)   = 29.6400
+RESULT ANALYSIS
+Most critical corridor: Bus 19 to 16 (FVSI = 0.2104)
+This line can absorb only 418.44 MVAR more before experiencing collapse.
+Corridor is stressed.
+IEEE14Data_Tap Change FVSI:
+50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:35
+From bus 1 to 5
+  Base FVSI       = 0.2896
+  V_send (pu)     = 1.0600
+  V_recv (pu)     = 0.8442
+  P_flow (MW)     = 140.3539
+  Q_recv (MVAR)   = 34.4491
+  Q_max (MVAR)    = 53.6028 (Actual network limit)
+  Q_margin (MVAR) = 19.1537 (Actual margin)
+  P_loss (MW)     = 13.0900
+  Q_loss (MVAR)   = 49.5193
+From bus 1 to 2
+  Base FVSI       = 0.1904
+  V_send (pu)     = 1.0600
+  V_recv (pu)     = 0.9341
+  P_flow (MW)     = 318.2045
+  Q_recv (MVAR)   = 81.6427
+  Q_max (MVAR)    = 155.7280 (Actual network limit)
+  Q_margin (MVAR) = 74.0853 (Actual margin)
+  P_loss (MW)     = 21.0165
+  Q_loss (MVAR)   = 58.8969
+From bus 7 to 9
+  Base FVSI       = 0.1841
+  V_send (pu)     = 0.8930
+  V_recv (pu)     = 0.8474
+  P_flow (MW)     = 48.8953
+  Q_recv (MVAR)   = 33.3621
+  Q_max (MVAR)    = 39.6000 (Actual network limit)
+  Q_margin (MVAR) = 6.2378 (Actual margin)
+  P_loss (MW)     = 0.0000
+  Q_loss (MVAR)   = 5.3675
+From bus 2 to 5
+  Base FVSI       = 0.1594
+  V_send (pu)     = 0.9341
+  V_recv (pu)     = 0.8442
+  P_flow (MW)     = 72.4275
+  Q_recv (MVAR)   = 18.0634
+  Q_max (MVAR)    = 30.2525 (Actual network limit)
+  Q_margin (MVAR) = 12.1891 (Actual margin)
+  P_loss (MW)     = 3.9714
+  Q_loss (MVAR)   = 9.3832
+From bus 2 to 4
+  Base FVSI       = 0.1190
+  V_send (pu)     = 0.9341
+  V_recv (pu)     = 0.8244
+  P_flow (MW)     = 99.0454
+  Q_recv (MVAR)   = 13.2809
+  Q_max (MVAR)    = 24.5809 (Actual network limit)
+  Q_margin (MVAR) = 11.3000 (Actual margin)
+  P_loss (MW)     = 7.3189
+  Q_loss (MVAR)   = 19.5685
+From bus 6 to 13
+  Base FVSI       = 0.1172
+  V_send (pu)     = 0.8837
+  V_recv (pu)     = 0.8378
+  P_flow (MW)     = 30.7756
+  Q_recv (MVAR)   = 13.9573
+  Q_max (MVAR)    = 19.5489 (Actual network limit)
+  Q_margin (MVAR) = 5.5916 (Actual margin)
+  P_loss (MW)     = 1.0182
+  Q_loss (MVAR)   = 2.0051
+From bus 9 to 14
+  Base FVSI       = 0.1142
+  V_send (pu)     = 0.8474
+  V_recv (pu)     = 0.8008
+  P_flow (MW)     = 16.0525
+  Q_recv (MVAR)   = 6.2124
+  Q_max (MVAR)    = 11.5949 (Actual network limit)
+  Q_margin (MVAR) = 5.3825 (Actual margin)
+  P_loss (MW)     = 0.5527
+  Q_loss (MVAR)   = 1.1757
+From bus 6 to 11
+  Base FVSI       = 0.0942
+  V_send (pu)     = 0.8837
+  V_recv (pu)     = 0.8518
+  P_flow (MW)     = 12.8557
+  Q_recv (MVAR)   = 7.5313
+  Q_max (MVAR)    = 14.0974 (Actual network limit)
+  Q_margin (MVAR) = 6.5661 (Actual margin)
+  P_loss (MW)     = 0.2812
+  Q_loss (MVAR)   = 0.5889
+From bus 13 to 14
+  Base FVSI       = 0.0895
+  V_send (pu)     = 0.8378
+  V_recv (pu)     = 0.8008
+  P_flow (MW)     = 9.8877
+  Q_recv (MVAR)   = 3.6351
+  Q_max (MVAR)    = 7.2432 (Actual network limit)
+  Q_margin (MVAR) = 3.6082 (Actual margin)
+  P_loss (MW)     = 0.2812
+  Q_loss (MVAR)   = 0.5726
+From bus 6 to 12
+  Base FVSI       = 0.0783
+  V_send (pu)     = 0.8837
+  V_recv (pu)     = 0.8494
+  P_flow (MW)     = 13.5274
+  Q_recv (MVAR)   = 4.8560
+  Q_max (MVAR)    = 11.8635 (Actual network limit)
+  Q_margin (MVAR) = 7.0075 (Actual margin)
+  P_loss (MW)     = 0.3366
+  Q_loss (MVAR)   = 0.7006
+From bus 2 to 3
+  Base FVSI       = 0.0627
+  V_send (pu)     = 0.9341
+  V_recv (pu)     = 0.8064
+  P_flow (MW)     = 129.1511
+  Q_recv (MVAR)   = 6.5400
+  Q_max (MVAR)    = 18.7004 (Actual network limit)
+  Q_margin (MVAR) = 12.1604 (Actual margin)
+  P_loss (MW)     = 10.2371
+  Q_loss (MVAR)   = 39.7943
+From bus 11 to 10
+  Base FVSI       = 0.0479
+  V_send (pu)     = 0.8518
+  V_recv (pu)     = 0.8365
+  P_flow (MW)     = 6.6086
+  Q_recv (MVAR)   = 3.8261
+  Q_max (MVAR)    = 7.3802 (Actual network limit)
+  Q_margin (MVAR) = 3.5541 (Actual margin)
+  P_loss (MW)     = 0.0684
+  Q_loss (MVAR)   = 0.1601
+From bus 12 to 13
+  Base FVSI       = 0.0412
+  V_send (pu)     = 0.8494
+  V_recv (pu)     = 0.8378
+  P_flow (MW)     = 2.9124
+  Q_recv (MVAR)   = 1.6733
+  Q_max (MVAR)    = 3.0925 (Actual network limit)
+  Q_margin (MVAR) = 1.4192 (Actual margin)
+  P_loss (MW)     = 0.0349
+  Q_loss (MVAR)   = 0.0316
+From bus 9 to 10
+  Base FVSI       = 0.0408
+  V_send (pu)     = 0.8474
+  V_recv (pu)     = 0.8365
+  P_flow (MW)     = 8.6157
+  Q_recv (MVAR)   = 7.5969
+  Q_max (MVAR)    = 16.0222 (Actual network limit)
+  Q_margin (MVAR) = 8.4253 (Actual margin)
+  P_loss (MW)     = 0.0595
+  Q_loss (MVAR)   = 0.1581
+From bus 5 to 4
+  Base FVSI       = 0.0056
+  V_send (pu)     = 0.8442
+  V_recv (pu)     = 0.8244
+  P_flow (MW)     = 104.7286
+  Q_recv (MVAR)   = 2.1522
+  Q_max (MVAR)    = 17.3217 (Actual network limit)
+  Q_margin (MVAR) = 15.1695 (Actual margin)
+  P_loss (MW)     = 2.1551
+  Q_loss (MVAR)   = 6.7979
+RESULT ANALYSIS
+Most critical corridor: Bus 1 to 5 (FVSI = 0.2896)
+This line can absorb only 19.15 MVAR more before experiencing collapse.
+Corridor is stressed.
+IEEE39Data 12 Capacitor & 100MVAr FVSI:
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:36
+From bus 1 to 39
+  Base FVSI       = 0.1005
+  V_send (pu)     = 1.0482
+  V_recv (pu)     = 1.0300
+  P_flow (MW)     = 91.6162
+  Q_recv (MVAR)   = 110.2575
+  Q_max (MVAR)    = 315.8239 (Actual network limit)
+  Q_margin (MVAR) = 205.5665 (Actual margin)
+  P_loss (MW)     = 0.1257
+  Q_loss (MVAR)   = -77.8441
+From bus 29 to 26
+  Base FVSI       = 0.0979
+  V_send (pu)     = 1.0454
+  V_recv (pu)     = 1.0451
+  P_flow (MW)     = 114.4564
+  Q_recv (MVAR)   = 42.4393
+  Q_max (MVAR)    = 243.7768 (Actual network limit)
+  Q_margin (MVAR) = 201.3375 (Actual margin)
+  P_loss (MW)     = 0.6935
+  Q_loss (MVAR)   = -104.8288
+From bus 2 to 3
+  Base FVSI       = 0.0882
+  V_send (pu)     = 1.0496
+  V_recv (pu)     = 1.0256
+  P_flow (MW)     = 168.4293
+  Q_recv (MVAR)   = 159.7582
+  Q_max (MVAR)    = 839.9465 (Actual network limit)
+  Q_margin (MVAR) = 680.1883 (Actual margin)
+  P_loss (MW)     = 0.6123
+  Q_loss (MVAR)   = -20.5824
+From bus 28 to 26
+  Base FVSI       = 0.0609
+  V_send (pu)     = 1.0437
+  V_recv (pu)     = 1.0451
+  P_flow (MW)     = 47.2625
+  Q_recv (MVAR)   = 34.7051
+  Q_max (MVAR)    = 238.7667 (Actual network limit)
+  Q_margin (MVAR) = 204.0616 (Actual margin)
+  P_loss (MW)     = 0.0904
+  Q_loss (MVAR)   = -84.1112
+From bus 14 to 4
+  Base FVSI       = 0.0585
+  V_send (pu)     = 1.0098
+  V_recv (pu)     = 0.9939
+  P_flow (MW)     = 196.5054
+  Q_recv (MVAR)   = 115.2339
+  Q_max (MVAR)    = 355.3736 (Actual network limit)
+  Q_margin (MVAR) = 240.1397 (Actual margin)
+  P_loss (MW)     = 0.4079
+  Q_loss (MVAR)   = -7.2938
+From bus 19 to 16
+  Base FVSI       = 0.0505
+  V_send (pu)     = 1.0480
+  V_recv (pu)     = 1.0337
+  P_flow (MW)     = 214.4346
+  Q_recv (MVAR)   = 70.6763
+  Q_max (MVAR)    = 658.4739 (Actual network limit)
+  Q_margin (MVAR) = 587.7976 (Actual margin)
+  P_loss (MW)     = 0.7329
+  Q_loss (MVAR)   = -24.0021
+From bus 2 to 1
+  Base FVSI       = 0.0487
+  V_send (pu)     = 1.0496
+  V_recv (pu)     = 1.0482
+  P_flow (MW)     = 91.6162
+  Q_recv (MVAR)   = 32.4133
+  Q_max (MVAR)    = 481.7004 (Actual network limit)
+  Q_margin (MVAR) = 449.2871 (Actual margin)
+  P_loss (MW)     = 0.2685
+  Q_loss (MVAR)   = -73.7150
+From bus 22 to 21
+  Base FVSI       = 0.0450
+  V_send (pu)     = 1.0494
+  V_recv (pu)     = 1.0321
+  P_flow (MW)     = 567.8571
+  Q_recv (MVAR)   = 88.1520
+  Q_max (MVAR)    = 746.1347 (Actual network limit)
+  Q_margin (MVAR) = 657.9827 (Actual margin)
+  P_loss (MW)     = 2.4636
+  Q_loss (MVAR)   = 15.3303
+From bus 26 to 27
+  Base FVSI       = 0.0428
+  V_send (pu)     = 1.0451
+  V_recv (pu)     = 1.0327
+  P_flow (MW)     = 198.0633
+  Q_recv (MVAR)   = 78.7716
+  Q_max (MVAR)    = 648.8904 (Actual network limit)
+  Q_margin (MVAR) = 570.1188 (Actual margin)
+  P_loss (MW)     = 0.5692
+  Q_loss (MVAR)   = -19.8863
+From bus 9 to 39
+  Base FVSI       = 0.0314
+  V_send (pu)     = 1.0311
+  V_recv (pu)     = 1.0300
+  P_flow (MW)     = 400.5357
+  Q_recv (MVAR)   = 33.3531
+  Q_max (MVAR)    = 135.4985 (Actual network limit)
+  Q_margin (MVAR) = 102.1455 (Actual margin)
+  P_loss (MW)     = 1.5095
+  Q_loss (MVAR)   = -89.7079
+From bus 22 to 23
+  Base FVSI       = 0.0247
+  V_send (pu)     = 1.0494
+  V_recv (pu)     = 1.0433
+  P_flow (MW)     = 79.6794
+  Q_recv (MVAR)   = 70.5195
+  Q_max (MVAR)    = 698.8633 (Actual network limit)
+  Q_margin (MVAR) = 628.3438 (Actual margin)
+  P_loss (MW)     = 0.0551
+  Q_loss (MVAR)   = -19.3286
+From bus 5 to 8
+  Base FVSI       = 0.0162
+  V_send (pu)     = 0.9962
+  V_recv (pu)     = 0.9864
+  P_flow (MW)     = 561.5637
+  Q_recv (MVAR)   = 35.5928
+  Q_max (MVAR)    = 242.3533 (Actual network limit)
+  Q_margin (MVAR) = 206.7605 (Actual margin)
+  P_loss (MW)     = 2.5759
+  Q_loss (MVAR)   = 21.5587
+From bus 17 to 27
+  Base FVSI       = 0.0150
+  V_send (pu)     = 1.0364
+  V_recv (pu)     = 1.0327
+  P_flow (MW)     = 182.2893
+  Q_recv (MVAR)   = 23.1005
+  Q_max (MVAR)    = 710.5322 (Actual network limit)
+  Q_margin (MVAR) = 687.4317 (Actual margin)
+  P_loss (MW)     = 0.4037
+  Q_loss (MVAR)   = -29.0508
+From bus 25 to 26
+  Base FVSI       = 0.0056
+  V_send (pu)     = 1.0471
+  V_recv (pu)     = 1.0451
+  P_flow (MW)     = 225.4952
+  Q_recv (MVAR)   = 4.6789
+  Q_max (MVAR)    = 520.0330 (Actual network limit)
+  Q_margin (MVAR) = 515.3540 (Actual margin)
+  P_loss (MW)     = 1.4860
+  Q_loss (MVAR)   = -41.1432
+RESULT ANALYSIS
+Most critical corridor: Bus 1 to 39 (FVSI = 0.1005)
+This line can absorb only 205.57 MVAR more before experiencing collapse.
+System is highly secure.
+IEEE39Data 29(selected- total PQ available) Capacitor & 100MVAr FVSI:
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:38
+From bus 29 to 26
+  Base FVSI       = 0.1148
+  V_send (pu)     = 1.0492
+  V_recv (pu)     = 1.0443
+  P_flow (MW)     = 114.3597
+  Q_recv (MVAR)   = 50.1543
+  Q_max (MVAR)    = 255.8181 (Actual network limit)
+  Q_margin (MVAR) = 205.6638 (Actual margin)
+  P_loss (MW)     = 0.6854
+  Q_loss (MVAR)   = -105.2289
+From bus 1 to 39
+  Base FVSI       = 0.1006
+  V_send (pu)     = 1.0483
+  V_recv (pu)     = 1.0300
+  P_flow (MW)     = 92.6724
+  Q_recv (MVAR)   = 110.3614
+  Q_max (MVAR)    = 313.0286 (Actual network limit)
+  Q_margin (MVAR) = 202.6672 (Actual margin)
+  P_loss (MW)     = 0.1277
+  Q_loss (MVAR)   = -77.7982
+From bus 2 to 3
+  Base FVSI       = 0.0866
+  V_send (pu)     = 1.0497
+  V_recv (pu)     = 1.0263
+  P_flow (MW)     = 166.4663
+  Q_recv (MVAR)   = 156.8589
+  Q_max (MVAR)    = 801.3124 (Actual network limit)
+  Q_margin (MVAR) = 644.4535 (Actual margin)
+  P_loss (MW)     = 0.5931
+  Q_loss (MVAR)   = -20.8254
+From bus 19 to 16
+  Base FVSI       = 0.0859
+  V_send (pu)     = 1.0486
+  V_recv (pu)     = 1.0247
+  P_flow (MW)     = 214.4433
+  Q_recv (MVAR)   = 120.3049
+  Q_max (MVAR)    = 647.1260 (Actual network limit)
+  Q_margin (MVAR) = 526.8211 (Actual margin)
+  P_loss (MW)     = 0.8667
+  Q_loss (MVAR)   = -22.1088
+From bus 28 to 26
+  Base FVSI       = 0.0741
+  V_send (pu)     = 1.0464
+  V_recv (pu)     = 1.0443
+  P_flow (MW)     = 47.3937
+  Q_recv (MVAR)   = 42.4732
+  Q_max (MVAR)    = 250.8544 (Actual network limit)
+  Q_margin (MVAR) = 208.3812 (Actual margin)
+  P_loss (MW)     = 0.0886
+  Q_loss (MVAR)   = -84.2796
+From bus 22 to 21
+  Base FVSI       = 0.0653
+  V_send (pu)     = 1.0468
+  V_recv (pu)     = 1.0240
+  P_flow (MW)     = 567.0909
+  Q_recv (MVAR)   = 127.3285
+  Q_max (MVAR)    = 751.9050 (Actual network limit)
+  Q_margin (MVAR) = 624.5766 (Actual margin)
+  P_loss (MW)     = 2.5527
+  Q_loss (MVAR)   = 17.1734
+From bus 26 to 27
+  Base FVSI       = 0.0523
+  V_send (pu)     = 1.0443
+  V_recv (pu)     = 1.0293
+  P_flow (MW)     = 198.9779
+  Q_recv (MVAR)   = 96.0397
+  Q_max (MVAR)    = 652.2130 (Actual network limit)
+  Q_margin (MVAR) = 556.1733 (Actual margin)
+  P_loss (MW)     = 0.6117
+  Q_loss (MVAR)   = -19.3337
+From bus 2 to 1
+  Base FVSI       = 0.0489
+  V_send (pu)     = 1.0497
+  V_recv (pu)     = 1.0483
+  P_flow (MW)     = 92.6724
+  Q_recv (MVAR)   = 32.5632
+  Q_max (MVAR)    = 481.7520 (Actual network limit)
+  Q_margin (MVAR) = 449.1888 (Actual margin)
+  P_loss (MW)     = 0.2746
+  Q_loss (MVAR)   = -73.6569
+From bus 5 to 8
+  Base FVSI       = 0.0368
+  V_send (pu)     = 0.9859
+  V_recv (pu)     = 0.9709
+  P_flow (MW)     = 561.5365
+  Q_recv (MVAR)   = 79.3835
+  Q_max (MVAR)    = 253.2408 (Actual network limit)
+  Q_margin (MVAR) = 173.8573 (Actual margin)
+  P_loss (MW)     = 2.6950
+  Q_loss (MVAR)   = 23.6002
+From bus 14 to 4
+  Base FVSI       = 0.0341
+  V_send (pu)     = 1.0005
+  V_recv (pu)     = 0.9909
+  P_flow (MW)     = 196.6267
+  Q_recv (MVAR)   = 65.8500
+  Q_max (MVAR)    = 303.2361 (Actual network limit)
+  Q_margin (MVAR) = 237.3861 (Actual margin)
+  P_loss (MW)     = 0.3434
+  Q_loss (MVAR)   = -8.1635
+From bus 23 to 24
+  Base FVSI       = 0.0204
+  V_send (pu)     = 1.0429
+  V_recv (pu)     = 1.0325
+  P_flow (MW)     = 304.7234
+  Q_recv (MVAR)   = 15.7606
+  Q_max (MVAR)    = 376.8872 (Actual network limit)
+  Q_margin (MVAR) = 361.1266 (Actual margin)
+  P_loss (MW)     = 1.8927
+  Q_loss (MVAR)   = -8.7621
+From bus 22 to 23
+  Base FVSI       = 0.0166
+  V_send (pu)     = 1.0468
+  V_recv (pu)     = 1.0429
+  P_flow (MW)     = 80.3564
+  Q_recv (MVAR)   = 47.1481
+  Q_max (MVAR)    = 671.1599 (Actual network limit)
+  Q_margin (MVAR) = 624.0118 (Actual margin)
+  P_loss (MW)     = 0.0432
+  Q_loss (MVAR)   = -19.4607
+From bus 6 to 7
+  Base FVSI       = 0.0109
+  V_send (pu)     = 0.9844
+  V_recv (pu)     = 0.9735
+  P_flow (MW)     = 871.5514
+  Q_recv (MVAR)   = 28.5862
+  Q_max (MVAR)    = 283.8958 (Actual network limit)
+  Q_margin (MVAR) = 255.3095 (Actual margin)
+  P_loss (MW)     = 4.7605
+  Q_loss (MVAR)   = 62.1670
+From bus 25 to 26
+  Base FVSI       = 0.0084
+  V_send (pu)     = 1.0470
+  V_recv (pu)     = 1.0443
+  P_flow (MW)     = 226.3862
+  Q_recv (MVAR)   = 7.0166
+  Q_max (MVAR)    = 516.7731 (Actual network limit)
+  Q_margin (MVAR) = 509.7565 (Actual margin)
+  P_loss (MW)     = 1.4970
+  Q_loss (MVAR)   = -40.9813
+From bus 9 to 39
+  Base FVSI       = 0.0055
+  V_send (pu)     = 1.0244
+  V_recv (pu)     = 1.0300
+  P_flow (MW)     = 399.4965
+  Q_recv (MVAR)   = 5.7537
+  Q_max (MVAR)    = 105.2781 (Actual network limit)
+  Q_margin (MVAR) = 99.5244 (Actual margin)
+  P_loss (MW)     = 1.5245
+  Q_loss (MVAR)   = -88.5087
+From bus 17 to 27
+  Base FVSI       = 0.0038
+  V_send (pu)     = 1.0302
+  V_recv (pu)     = 1.0293
+  P_flow (MW)     = 181.4171
+  Q_recv (MVAR)   = 5.8325
+  Q_max (MVAR)    = 687.5211 (Actual network limit)
+  Q_margin (MVAR) = 681.6886 (Actual margin)
+  P_loss (MW)     = 0.4036
+  Q_loss (MVAR)   = -28.7310
+From bus 7 to 8
+  Base FVSI       = 0.0005
+  V_send (pu)     = 0.9735
+  V_recv (pu)     = 0.9709
+  P_flow (MW)     = 551.1360
+  Q_recv (MVAR)   = 2.6237
+  Q_max (MVAR)    = 137.3908 (Actual network limit)
+  Q_margin (MVAR) = 134.7671 (Actual margin)
+  P_loss (MW)     = 1.2830
+  Q_loss (MVAR)   = 7.3823
+RESULT ANALYSIS
+Most critical corridor: Bus 29 to 26 (FVSI = 0.1148)
+This line can absorb only 205.66 MVAR more before experiencing collapse.
+System is highly secure.
+IEEE14Data (selected- number of  total Tapping Txf available) 3 Capacitor & 100MVAr FVSI:
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:40
+From bus 7 to 9
+  Base FVSI       = 0.1208
+  V_send (pu)     = 0.9648
+  V_recv (pu)     = 0.9330
+  P_flow (MW)     = 47.7022
+  Q_recv (MVAR)   = 25.5549
+  Q_max (MVAR)    = 43.0356 (Actual network limit)
+  Q_margin (MVAR) = 17.4807 (Actual margin)
+  P_loss (MW)     = 0.0000
+  Q_loss (MVAR)   = 3.7008
+From bus 9 to 14
+  Base FVSI       = 0.0975
+  V_send (pu)     = 0.9330
+  V_recv (pu)     = 0.8903
+  P_flow (MW)     = 16.1511
+  Q_recv (MVAR)   = 6.4277
+  Q_max (MVAR)    = 18.9919 (Actual network limit)
+  Q_margin (MVAR) = 12.5642 (Actual margin)
+  P_loss (MW)     = 0.4610
+  Q_loss (MVAR)   = 0.9807
+From bus 6 to 13
+  Base FVSI       = 0.0966
+  V_send (pu)     = 0.9633
+  V_recv (pu)     = 0.9223
+  P_flow (MW)     = 30.4006
+  Q_recv (MVAR)   = 13.6766
+  Q_max (MVAR)    = 30.3630 (Actual network limit)
+  Q_margin (MVAR) = 16.6865 (Actual margin)
+  P_loss (MW)     = 0.8257
+  Q_loss (MVAR)   = 1.6261
+From bus 6 to 11
+  Base FVSI       = 0.0749
+  V_send (pu)     = 0.9633
+  V_recv (pu)     = 0.9355
+  P_flow (MW)     = 12.5063
+  Q_recv (MVAR)   = 7.1109
+  Q_max (MVAR)    = 21.8062 (Actual network limit)
+  Q_margin (MVAR) = 14.6953 (Actual margin)
+  P_loss (MW)     = 0.2187
+  Q_loss (MVAR)   = 0.4580
+From bus 13 to 14
+  Base FVSI       = 0.0695
+  V_send (pu)     = 0.9223
+  V_recv (pu)     = 0.8903
+  P_flow (MW)     = 9.6325
+  Q_recv (MVAR)   = 3.4197
+  Q_max (MVAR)    = 11.8501 (Actual network limit)
+  Q_margin (MVAR) = 8.4305 (Actual margin)
+  P_loss (MW)     = 0.2164
+  Q_loss (MVAR)   = 0.4406
+From bus 6 to 12
+  Base FVSI       = 0.0649
+  V_send (pu)     = 0.9633
+  V_recv (pu)     = 0.9325
+  P_flow (MW)     = 13.3856
+  Q_recv (MVAR)   = 4.7825
+  Q_max (MVAR)    = 18.7217 (Actual network limit)
+  Q_margin (MVAR) = 13.9392 (Actual margin)
+  P_loss (MW)     = 0.2753
+  Q_loss (MVAR)   = 0.5730
+From bus 11 to 10
+  Base FVSI       = 0.0358
+  V_send (pu)     = 0.9355
+  V_recv (pu)     = 0.9227
+  P_flow (MW)     = 6.3399
+  Q_recv (MVAR)   = 3.4483
+  Q_max (MVAR)    = 12.1209 (Actual network limit)
+  Q_margin (MVAR) = 8.6726 (Actual margin)
+  P_loss (MW)     = 0.0502
+  Q_loss (MVAR)   = 0.1175
+From bus 9 to 10
+  Base FVSI       = 0.0354
+  V_send (pu)     = 0.9330
+  V_recv (pu)     = 0.9227
+  P_flow (MW)     = 8.8778
+  Q_recv (MVAR)   = 7.9747
+  Q_max (MVAR)    = 28.5224 (Actual network limit)
+  Q_margin (MVAR) = 20.5477 (Actual margin)
+  P_loss (MW)     = 0.0529
+  Q_loss (MVAR)   = 0.1404
+From bus 12 to 13
+  Base FVSI       = 0.0328
+  V_send (pu)     = 0.9325
+  V_recv (pu)     = 0.9223
+  P_flow (MW)     = 2.8319
+  Q_recv (MVAR)   = 1.6068
+  Q_max (MVAR)    = 5.8336 (Actual network limit)
+  Q_margin (MVAR) = 4.2268 (Actual margin)
+  P_loss (MW)     = 0.0271
+  Q_loss (MVAR)   = 0.0246
+From bus 4 to 3
+  Base FVSI       = 0.0212
+  V_send (pu)     = 0.9524
+  V_recv (pu)     = 0.9151
+  P_flow (MW)     = 41.8044
+  Q_recv (MVAR)   = 2.4313
+  Q_max (MVAR)    = 23.4923 (Actual network limit)
+  Q_margin (MVAR) = 21.0610 (Actual margin)
+  P_loss (MW)     = 1.4013
+  Q_loss (MVAR)   = 2.4602
+RESULT ANALYSIS
+Most critical corridor: Bus 7 to 9 (FVSI = 0.1208)
+This line can absorb only 17.48 MVAR more before experiencing collapse.
+System is highly secure.
+IEEE14Data  9 Capacitor (selected- total PQ available) & 50MVAr FVSI:
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+ 50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-36.6.0--Python 3.14
+             INITIATED ON THU, SEP 24 2026  16:40
+From bus 7 to 9
+  Base FVSI       = 0.1208
+  V_send (pu)     = 0.9648
+  V_recv (pu)     = 0.9330
+  P_flow (MW)     = 47.7022
+  Q_recv (MVAR)   = 25.5549
+  Q_max (MVAR)    = 43.0356 (Actual network limit)
+  Q_margin (MVAR) = 17.4807 (Actual margin)
+  P_loss (MW)     = 0.0000
+  Q_loss (MVAR)   = 3.7008
+From bus 9 to 14
+  Base FVSI       = 0.0975
+  V_send (pu)     = 0.9330
+  V_recv (pu)     = 0.8903
+  P_flow (MW)     = 16.1511
+  Q_recv (MVAR)   = 6.4277
+  Q_max (MVAR)    = 18.9919 (Actual network limit)
+  Q_margin (MVAR) = 12.5642 (Actual margin)
+  P_loss (MW)     = 0.4610
+  Q_loss (MVAR)   = 0.9807
+From bus 6 to 13
+  Base FVSI       = 0.0966
+  V_send (pu)     = 0.9633
+  V_recv (pu)     = 0.9223
+  P_flow (MW)     = 30.4006
+  Q_recv (MVAR)   = 13.6766
+  Q_max (MVAR)    = 30.3630 (Actual network limit)
+  Q_margin (MVAR) = 16.6865 (Actual margin)
+  P_loss (MW)     = 0.8257
+  Q_loss (MVAR)   = 1.6261
+From bus 6 to 11
+  Base FVSI       = 0.0749
+  V_send (pu)     = 0.9633
+  V_recv (pu)     = 0.9355
+  P_flow (MW)     = 12.5063
+  Q_recv (MVAR)   = 7.1109
+  Q_max (MVAR)    = 21.8062 (Actual network limit)
+  Q_margin (MVAR) = 14.6953 (Actual margin)
+  P_loss (MW)     = 0.2187
+  Q_loss (MVAR)   = 0.4580
+From bus 13 to 14
+  Base FVSI       = 0.0695
+  V_send (pu)     = 0.9223
+  V_recv (pu)     = 0.8903
+  P_flow (MW)     = 9.6325
+  Q_recv (MVAR)   = 3.4197
+  Q_max (MVAR)    = 11.8501 (Actual network limit)
+  Q_margin (MVAR) = 8.4305 (Actual margin)
+  P_loss (MW)     = 0.2164
+  Q_loss (MVAR)   = 0.4406
+From bus 6 to 12
+  Base FVSI       = 0.0649
+  V_send (pu)     = 0.9633
+  V_recv (pu)     = 0.9325
+  P_flow (MW)     = 13.3856
+  Q_recv (MVAR)   = 4.7825
+  Q_max (MVAR)    = 18.7217 (Actual network limit)
+  Q_margin (MVAR) = 13.9392 (Actual margin)
+  P_loss (MW)     = 0.2753
+  Q_loss (MVAR)   = 0.5730
+From bus 11 to 10
+  Base FVSI       = 0.0358
+  V_send (pu)     = 0.9355
+  V_recv (pu)     = 0.9227
+  P_flow (MW)     = 6.3399
+  Q_recv (MVAR)   = 3.4483
+  Q_max (MVAR)    = 12.1209 (Actual network limit)
+  Q_margin (MVAR) = 8.6726 (Actual margin)
+  P_loss (MW)     = 0.0502
+  Q_loss (MVAR)   = 0.1175
+From bus 9 to 10
+  Base FVSI       = 0.0354
+  V_send (pu)     = 0.9330
+  V_recv (pu)     = 0.9227
+  P_flow (MW)     = 8.8778
+  Q_recv (MVAR)   = 7.9747
+  Q_max (MVAR)    = 28.5224 (Actual network limit)
+  Q_margin (MVAR) = 20.5477 (Actual margin)
+  P_loss (MW)     = 0.0529
+  Q_loss (MVAR)   = 0.1404
+From bus 12 to 13
+  Base FVSI       = 0.0328
+  V_send (pu)     = 0.9325
+  V_recv (pu)     = 0.9223
+  P_flow (MW)     = 2.8319
+  Q_recv (MVAR)   = 1.6068
+  Q_max (MVAR)    = 5.8336 (Actual network limit)
+  Q_margin (MVAR) = 4.2268 (Actual margin)
+  P_loss (MW)     = 0.0271
+  Q_loss (MVAR)   = 0.0246
+From bus 4 to 3
+  Base FVSI       = 0.0212
+  V_send (pu)     = 0.9524
+  V_recv (pu)     = 0.9151
+  P_flow (MW)     = 41.8044
+  Q_recv (MVAR)   = 2.4313
+  Q_max (MVAR)    = 23.4923 (Actual network limit)
+  Q_margin (MVAR) = 21.0610 (Actual margin)
+  P_loss (MW)     = 1.4013
+  Q_loss (MVAR)   = 2.4602
+RESULT ANALYSIS
+Most critical corridor: Bus 7 to 9 (FVSI = 0.1208)
+This line can absorb only 17.48 MVAR more before experiencing collapse.
+System is highly secure.

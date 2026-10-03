@@ -1,0 +1,3 @@
+# psspy / redirect are provided by the Siemens PSS(R)E installation (not pip-installable)
+numpy>=1.26
+matplotlib>=3.8

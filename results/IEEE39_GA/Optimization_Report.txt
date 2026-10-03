@@ -1,0 +1,80 @@
+
+=================================================================
+                   SYSTEM OPTIMIZATION SUMMARY                   
+=================================================================
+Total Generation P (MW)      : Base =  8500.3398, Opt =  8474.7949 (Decreased by 0.30%)
+Total Generation Q (MVAR)    : Base =  5909.6392, Opt =  4594.0322 (Decreased by 22.26%)
+Total Load P (MW)            : Base =  8375.5898, Opt =  8375.5898 (Remained unchanged)
+Total Load Q (MVAR)          : Base =  1902.1029, Opt =  1902.1029 (Remained unchanged)
+Active Power Loss (MW)       : Base =   124.7506, Opt =    99.2081 (Decreased by 20.47%)
+Reactive Power Loss (MVAR)   : Base =  5210.9014, Opt =  4032.6907 (Decreased by 22.61%)
+Power Balance Residual (MW)  : Base =    -0.0006, Opt =    -0.0030 (Decreased by 429.73%)
+Minimum Voltage (pu)         : Base =     0.8193, Opt =     0.9242 (Increased by 12.80%)
+Maximum Voltage (pu)         : Base =     1.0635, Opt =     1.0807 (Increased by 1.62%)
+Total Voltage Violation (pu) : Base =     1.0267, Opt =     0.1307 (Decreased by 87.27%)
+
+TRANSFORMER TAP ADJUSTMENTS
+
+ -> Transformer  2-30 : Base = 1.0250, Opt = 1.0857
+ -> Transformer  6-31 : Base = 0.8571, Opt = 0.8000
+ -> Transformer 10-32 : Base = 1.0700, Opt = 1.0286
+ -> Transformer 11-12 : Base = 1.0060, Opt = 1.0857
+ -> Transformer 12-13 : Base = 1.0060, Opt = 1.0857
+ -> Transformer 19-20 : Base = 1.0600, Opt = 1.0857
+ -> Transformer 19-33 : Base = 1.0700, Opt = 1.1429
+ -> Transformer 20-34 : Base = 1.0090, Opt = 1.0286
+ -> Transformer 22-35 : Base = 1.0250, Opt = 1.0286
+ -> Transformer 23-36 : Base = 1.0000, Opt = 1.0286
+ -> Transformer 25-37 : Base = 1.0250, Opt = 1.0286
+ -> Transformer 29-38 : Base = 1.0250, Opt = 1.0286
+
+=================================================================
+            INDIVIDUAL BUS VOLTAGES (BEFORE vs AFTER)            
+=================================================================
+ -> Bus   1 : BEFORE = 1.0358 pu  |  AFTER = 1.0523 pu
+ -> Bus   2 : BEFORE = 1.0170 pu  |  AFTER = 1.0602 pu
+ -> Bus   3 : BEFORE = 0.9493 pu  |  AFTER = 1.0096 pu
+ -> Bus   4 : BEFORE = 0.8547 pu  |  AFTER = 0.9439 pu
+ -> Bus   5 : BEFORE = 0.8352 pu  |  AFTER = 0.9415 pu
+ -> Bus   6 : BEFORE = 0.8364 pu  |  AFTER = 0.9445 pu
+ -> Bus   7 : BEFORE = 0.8193 pu  |  AFTER = 0.9256 pu
+ -> Bus   8 : BEFORE = 0.8207 pu  |  AFTER = 0.9242 pu
+ -> Bus   9 : BEFORE = 0.9437 pu  |  AFTER = 0.9887 pu
+ -> Bus  10 : BEFORE = 0.8894 pu  |  AFTER = 0.9560 pu
+ -> Bus  11 : BEFORE = 0.8694 pu  |  AFTER = 0.9503 pu
+ -> Bus  12 : BEFORE = 0.8483 pu  |  AFTER = 1.0009 pu
+ -> Bus  13 : BEFORE = 0.8794 pu  |  AFTER = 0.9504 pu
+ -> Bus  14 : BEFORE = 0.8726 pu  |  AFTER = 0.9499 pu
+ -> Bus  15 : BEFORE = 0.9182 pu  |  AFTER = 0.9801 pu
+ -> Bus  16 : BEFORE = 0.9684 pu  |  AFTER = 1.0200 pu
+ -> Bus  17 : BEFORE = 0.9669 pu  |  AFTER = 1.0183 pu
+ -> Bus  18 : BEFORE = 0.9577 pu  |  AFTER = 1.0127 pu
+ -> Bus  19 : BEFORE = 1.0239 pu  |  AFTER = 1.0807 pu
+ -> Bus  20 : BEFORE = 0.9719 pu  |  AFTER = 0.9970 pu
+ -> Bus  21 : BEFORE = 0.9832 pu  |  AFTER = 1.0229 pu
+ -> Bus  22 : BEFORE = 1.0236 pu  |  AFTER = 1.0495 pu
+ -> Bus  23 : BEFORE = 1.0171 pu  |  AFTER = 1.0476 pu
+ -> Bus  24 : BEFORE = 0.9808 pu  |  AFTER = 1.0292 pu
+ -> Bus  25 : BEFORE = 1.0205 pu  |  AFTER = 1.0537 pu
+ -> Bus  26 : BEFORE = 1.0074 pu  |  AFTER = 1.0414 pu
+ -> Bus  27 : BEFORE = 0.9796 pu  |  AFTER = 1.0222 pu
+ -> Bus  28 : BEFORE = 1.0242 pu  |  AFTER = 1.0437 pu
+ -> Bus  29 : BEFORE = 1.0320 pu  |  AFTER = 1.0466 pu
+ -> Bus  30 : BEFORE = 1.0475 pu  |  AFTER = 1.0475 pu
+ -> Bus  31 : BEFORE = 0.9820 pu  |  AFTER = 0.9820 pu
+ -> Bus  32 : BEFORE = 0.9831 pu  |  AFTER = 0.9831 pu
+ -> Bus  33 : BEFORE = 0.9972 pu  |  AFTER = 0.9972 pu
+ -> Bus  34 : BEFORE = 1.0123 pu  |  AFTER = 1.0123 pu
+ -> Bus  35 : BEFORE = 1.0493 pu  |  AFTER = 1.0493 pu
+ -> Bus  36 : BEFORE = 1.0635 pu  |  AFTER = 1.0635 pu
+ -> Bus  37 : BEFORE = 1.0278 pu  |  AFTER = 1.0278 pu
+ -> Bus  38 : BEFORE = 1.0265 pu  |  AFTER = 1.0265 pu
+ -> Bus  39 : BEFORE = 1.0300 pu  |  AFTER = 1.0300 pu
+
+FINAL STATUS
+
+Feasibility : INFEASIBLE (Grid voltage constraints remain violated)
+Best effort : Active power loss reduced by 20.47%
+Voltage     : Remaining constraint violation = 0.1307 pu
+
+Export SAV  : D:/EEE 305 PSSE Project/Python Codes\IEEE39Data_GA_Results\IEEE39Data_TAP_OPTIMIZED.sav

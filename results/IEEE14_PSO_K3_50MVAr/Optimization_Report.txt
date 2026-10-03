@@ -1,0 +1,46 @@
+
+=================================================================
+              INDEPENDENT SYSTEM VALIDATION SUMMARY              
+=================================================================
+Total Generation P (MW)      : Base =   507.0703, Opt =   483.8242 (Decreased by 4.58%)
+Total Generation Q (MVAR)    : Base =   413.3333, Opt =   206.8462 (Decreased by 49.96%)
+Total Load P (MW)            : Base =   436.0036, Opt =   436.4097 (Increased by 0.09%)
+Total Load Q (MVAR)          : Base =   144.5947, Opt =   144.7571 (Increased by 0.11%)
+Active Power Loss (MW)       : Base =    71.0311, Opt =    47.4237 (Decreased by 33.24%)
+Reactive Power Loss (MVAR)   : Base =   296.6196, Opt =   192.5760 (Decreased by 35.08%)
+Minimum Voltage (pu)         : Base =     0.6474, Opt =     0.8905 (Increased by 37.55%)
+Maximum Voltage (pu)         : Base =     1.0600, Opt =     1.0600 (Remained unchanged)
+Total Voltage Violation (pu) : Base =     2.6229, Opt =     0.2074 (Decreased by 92.09%)
+
+BEST-EFFORT INFEASIBLE CAPACITOR DEPLOYMENT
+ -> Bus   4 :  50.0 MVAr Installed
+ -> Bus   5 :  45.0 MVAr Installed
+ -> Bus   7 :   5.0 MVAr Installed
+
+ -> Total Added Reactive Capacity: 100.0 MVAr across 3 locations
+
+=================================================================
+            INDIVIDUAL BUS VOLTAGES (BEFORE vs AFTER)            
+=================================================================
+ -> Bus   1 : BEFORE = 1.0600 pu  |  AFTER = 1.0600 pu
+ -> Bus   2 : BEFORE = 0.9141 pu  |  AFTER = 0.9940 pu
+ -> Bus   3 : BEFORE = 0.7697 pu  |  AFTER = 0.9152 pu
+ -> Bus   4 : BEFORE = 0.7833 pu  |  AFTER = 0.9525 pu
+ -> Bus   5 : BEFORE = 0.8065 pu  |  AFTER = 0.9619 pu
+ -> Bus   6 : BEFORE = 0.7498 pu  |  AFTER = 0.9635 pu
+ -> Bus   7 : BEFORE = 0.7529 pu  |  AFTER = 0.9650 pu
+ -> Bus   8 : BEFORE = 0.8054 pu  |  AFTER = 1.0070 pu
+ -> Bus   9 : BEFORE = 0.7043 pu  |  AFTER = 0.9332 pu
+ -> Bus  10 : BEFORE = 0.6914 pu  |  AFTER = 0.9229 pu
+ -> Bus  11 : BEFORE = 0.7107 pu  |  AFTER = 0.9357 pu
+ -> Bus  12 : BEFORE = 0.7079 pu  |  AFTER = 0.9326 pu
+ -> Bus  13 : BEFORE = 0.6936 pu  |  AFTER = 0.9224 pu
+ -> Bus  14 : BEFORE = 0.6474 pu  |  AFTER = 0.8905 pu
+
+FINAL STATUS
+
+Feasibility : INFEASIBLE (Grid voltage constraints remain violated)
+Best effort : Active power loss reduced by 33.24%
+Voltage     : Remaining constraint violation = 0.2074 pu
+
+Export SAV  : D:/EEE 305 PSSE Project/Python Codes\IEEE14Data_PSO_Results\IEEE14Data_CAPACITOR_OPTIMIZED.sav

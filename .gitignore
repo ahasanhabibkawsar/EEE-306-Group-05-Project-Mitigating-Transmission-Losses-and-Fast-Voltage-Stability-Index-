@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+# OS / Office temp files
+.DS_Store
+Thumbs.db
+~$*
+# PSS(R)E scratch output
+*.log
